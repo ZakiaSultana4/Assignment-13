@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body><nav class="navbar navbar-expand-lg bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Ostad</a>
+     
+     
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Help</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+              Courses
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Help</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/carousel3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/carousel1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/carousel2.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+     <div class=" w-100 bg-primary d-flex" style="height: 800px;">
+        
+            
+              <div class="bg-warning pt-3 col-md-6" id="from" style="width: 700px;">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Name:</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name">
+                    </div>
+                    
+                    
+                    
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address:</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  
+                  <div class="mb-3">
+                    <label for="password" class="form-label">Password:</label>
+                    <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="enter a valid password">
+                  </div>
+                  <p>Do you enrole the course:
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox">
+                    <label class="form-check-label" for="checkbox">yes</label>
+
+                  </div> 
+                     
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox">
+                    <label class="form-check-label" for="checkbox">No:</label>
+
+                  </div>
+                  </p>
+              
+              
+              <P>Gender</P>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Male
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Female
+                </label>
+              </div>
+
+              <label for="customRange1" class="form-label">How much your experince</label>
+              <input type="range" class="form-range" id="customRange1">
+
+
+            </div>
+            
+              <div class="col-md-6 bg-success pt-3" id="table">
+
+                <table class="table table-success table-striped table-hover table-bordered border-secondary ">
+                  <thead>
+                    <tr>
+                      <th scope="col">No.</th>
+                      <th scope="col">Name</th>
+                      <th scope="col">Subject</th>
+                      <th scope="col">Result</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Rahim</td>
+                      <td>Chemisrty</td>
+                      <td>52</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Karim</td>
+                      <td>Physics</td>
+                      <td>44</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Abdul</td>
+                      <td>Biology</td>
+                      <td>32</td>
+                    </tr>
+                  
+                  </tbody>
+                </table>
+
+            </div> 
+     </div>  
+
+     <div class="bg-light" style="height: 800px;" id="card">
+     
+     
+      <div class="card-group shadow-lg">
+        <div class="card me-3">
+          <img src="img/carousel1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Web Design</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In praesentium explicabo sapiente deleniti sequi repudiandae placeat error voluptatum quisquam eveniet quia expedita, ipsa tenetur laboriosam similique ducimus amet corporis hic nobis doloribus optio commodi laudantium? Atque magni eius officiis quae optio fuga. Voluptate, aliquam reprehenderit id harum vel dolorum saepe!</p>
+            <a href="#" class="btn btn-primary">Learn more...</a>
+            
+          </div>
+        </div>
+        <div class="card me-3" >
+          <img src="img/carousel2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Web Developmrnt</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam iusto ipsam, tenetur nemo quaerat voluptate sapiente. Obcaecati odio provident porro architecto, velit natus? Ipsum velit vel dicta eaque ratione. Nisi vel qui maxime quos quo ad consequuntur ipsam excepturi nam reiciendis ducimus eos molestias, esse rem expedita recusandae natus?</p>
+            <a href="#" class="btn btn-primary">Learn more...</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/carousel3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ui/Ux Design</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, eligendi aliquam nisi, voluptatem et eveniet aspernatur dolorum earum at mollitia consequuntur quis itaque tenetur explicabo eos. Ab consequatur alias officia quasi id. Placeat, deleniti blanditiis! Nihil temporibus vitae, deleniti quas, porro exercitationem velit quos vero culpa omnis cumque iusto numquam!</p>
+            <a href="#" class="btn btn-primary">Learn more...</a>
+          </div>
+        </div>
+      
+     
+              
+    
+  </div>
+
+    
+      
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
